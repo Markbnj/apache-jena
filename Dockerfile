@@ -14,3 +14,4 @@ RUN cd opt && \
     tar -xvzf apache-jena-fuseki-2.3.1.tar.gz && \
     rm apache-jena-fuseki-2.3.1.tar.gz
 
+ENTRYPOINT ["fuseki-server", "--update"]
